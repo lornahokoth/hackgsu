@@ -11,3 +11,17 @@
   color: magenta;
   margin: 1rem;
 }
+.footer{
+    background: rgb(186, 148, 125);
+    padding: 5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer a {
+  text-decoration: none;
+  color: teal;
+  margin: 1rem;
+
+}
