@@ -1,10 +1,19 @@
 .header {
   text-align: center;
-  padding: 1rem;
-  background: rgb(128, 131, 112);
+  padding: 1rem 0rem 1rem 0rem;
+  background: #150941;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+
+
 }
 .header img {
-  width: 16rem;
+  background: url(https://cdn.discordapp.com/attachments/779707553722007612/780067776181174272/unknown.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
 }
 .header a {
   text-decoration: none;
@@ -12,7 +21,7 @@
   margin: 1rem;
 }
 .footer{
-    background: rgb(186, 148, 125);
+    background: #FF0A6C;
     padding: 5rem;
     position: fixed;
     left: 0;
@@ -21,7 +30,7 @@
 }
 .footer a {
   text-decoration: none;
-  color: teal;
+  color: rgb(117, 92, 52);
   margin: 1rem;
 
 }
