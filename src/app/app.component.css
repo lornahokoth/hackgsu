@@ -1,13 +1,13 @@
-.header{
-text-align: center;
-padding: 1rem;
+.header {
+  text-align: center;
+  padding: 1rem;
+  background: rgb(128, 131, 112);
 }
-.header img{
-width: 200px; height: 200px;
+.header img {
+  width: 16rem;
 }
-.header a{
-text-decoration: none;
-color: magenta;
-margin: 1rem;
-
+.header a {
+  text-decoration: none;
+  color: magenta;
+  margin: 1rem;
 }
