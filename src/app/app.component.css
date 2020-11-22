@@ -1,0 +1,13 @@
+.header{
+text-align: center;
+padding: 1rem;
+}
+.header img{
+width: 200px; height: 200px;
+}
+.header a{
+text-decoration: none;
+color: magenta;
+margin: 1rem;
+
+}
