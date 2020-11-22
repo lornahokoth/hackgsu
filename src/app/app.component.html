@@ -1,25 +1,19 @@
-<title>About Us</title>
+<div class="container">
+  <title>About Us</title>
 
-<div class="header">
-  <a routerLink="/home" routerLinkActive="active"> Home </a>
-  <a routerLink="/about" routerLinkActive="active"> About </a>
-  <a routerLink="/inspir" routerLinkActive="active"> Inspirational </a>
-  <a routerLink="/net" routerLinkActive="active"> Network </a>
-  <a routerLink="/ruw" routerLinkActive="active"> Rise Up Women </a>
-  <a routerLink="/startc" routerLinkActive="active"> startCoding() </a>
-
-  <div class="hero-image">
-    <img
-      src="https://cdn.discordapp.com/attachments/779707553722007612/780067776181174272/unknown.png"
-      alt=""
-    />
+  <div class="header">
+    <a routerLink="/home" routerLinkActive="active"> Home </a>
+    <a routerLink="/about" routerLinkActive="active"> About </a>
+    <a routerLink="/inspir" routerLinkActive="active"> Inspirational </a>
+    <a routerLink="/net" routerLinkActive="active"> Network </a>
+    <a routerLink="/ruw" routerLinkActive="active"> Rise Up Women </a>
+    <a routerLink="/startc" routerLinkActive="active"> startCoding() </a>
   </div>
-</div>
 
-
-
-
-<router-outlet></router-outlet>
-<div class="footer">
-  <a>blah blah blah</a>
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+  <div class="footer">
+    <a>blah blah blah</a>
+  </div>
 </div>

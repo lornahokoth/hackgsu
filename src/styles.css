@@ -2,4 +2,13 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color:#150941;
+  background-image: url(https://cdn.discordapp.com/attachments/779707553722007612/780067776181174272/unknown.png);
+  /* background-size: cover; */
+  color: white;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
 }
